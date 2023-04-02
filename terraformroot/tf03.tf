@@ -1,3 +1,7 @@
+terraform {
+backend "azure" {}
+}
+
 provider "azureem" {
     version ="=2.4.0"
     features {}
